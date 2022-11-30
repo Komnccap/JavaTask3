@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class Task3_FindNums {
     public static void main(String[] args) {
-//Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее число из этого списка.
+    //Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее число из этого списка.
         Random randNum = new Random();
         ArrayList<Integer> nums = new ArrayList<>();
         int minValue = 101, midlValue = 0, maxValue = 0, count = 0, count2 = 0;
@@ -29,8 +29,6 @@ public class Task3_FindNums {
                 count2++;
             }
         }
-        System.out.printf("максимальное значение = %d ",maxValue);
-        System.out.printf("Среднее значение = %d ", midlValue);
-        System.out.printf("Минимальное значение = %d ",minValue);
+        System.out.printf("Минимальное значение = %d, Среднее значение = %d и максимальное значение = %d ",minValue, midlValue, maxValue);
     }
 }

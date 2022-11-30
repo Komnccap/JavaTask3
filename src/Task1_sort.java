@@ -31,7 +31,6 @@ public class Task1_sort {
         else {
             result = bufNum1;
         }
-
         while (index1 < middle && index2 < endIndex) {
             if(sorted1[index1] < sorted2[index2]){
                 result[destIndex++] = sorted1[index1++];
